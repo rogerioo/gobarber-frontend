@@ -22,6 +22,7 @@ export const Container = styled.div`
     color: #312e38;
 
     &::before {
+      content: '';
       border-style: solid;
       border-color: #ff9000 transparent;
       border-width: 6px 6px 0px 6px;
